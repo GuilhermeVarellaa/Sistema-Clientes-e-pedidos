@@ -26,9 +26,9 @@ public class Pedido {
     }
 
         public  void exibirResumo(){
-            System.out.println("Cliente: " + cliente.getNome() + "CPF: " + cliente.getCpf());
+            System.out.println("Cliente: " + cliente.getNome() + " CPF: " + cliente.getCpf());
             for (Produto p : produtos){
-                System.out.println("- " + p.getNome() + "| R$" + p.getPreco());
+                System.out.println("- " + p.getNome() + " | R$" + p.getPreco());
             }
             System.out.println("Total do pedido: " + calcularTotal());
             System.out.println("--------------------------");
